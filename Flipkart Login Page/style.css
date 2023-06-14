@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: #f6f6f6;
+     max-width: 50%;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1.3fr;
+   }
+   
+   .left {
+     background-color: #2874f0;
+     padding: 3rem 2rem;
+   }
+   
+   .right {
+     padding: 3rem 2rem;
+   }
+   
+   .heading {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+   }
+   
+   .heading__desc {
+    color: #ebebeb;
+     font-size: 1.2rem;
+   }
+   
+   .email, .password{
+    margin-bottom: 20px;
+   }
+   .login-group input{
+     padding: 10px;
+     border: none;
+     width: 100%;
+     border-bottom: 1px solid #878787;
+     outline: none;
+   }
+
+   .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   button{
+    /* background-color: #00e600; */
+    background-color: #fb641b;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+   }
+
+   .flipkartimage{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000000; */
+   }
+   .flipkartimage img{
+    height: 40px;
+   }
+
+   .checkbox{
+    display: flex;
+    margin-top: 20px;
+   }
+   .checkbox span{
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   .signup_link{
+    margin-top: 30px;
+    color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup_link a{
+    color: #0061fc;
+    text-decoration: none;
+   }
